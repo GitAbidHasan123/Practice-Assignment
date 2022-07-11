@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;}
+.sub{
+    background-color: black;
+}
+.section-1{
+    background: black url(images/education.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    width: 80%;
+    margin-left: 150px;
+    position: relative;
+    z-index: 1;
+    border-bottom: 2px solid white;
+}    
+.overlay{
+    background-color: black;
+    opacity: .7;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.design1 h1{
+    color: rgb(255, 249, 249);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Edu SA Beginner', cursive;
+    margin-top: -40px;
+}
+.design1{
+    padding-top: 200px;
+}
+.design1 p{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.btn-cls{
+    margin-top: 320px;
+}
+.Button-dgn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(7, 6, 6);
+    font-style: italic;
+    text-decoration: none;
+    margin-left: 455px;
+    background-color: white; 
+}
+ .boro{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.section-2{
+    background-color: black;
+}
+.gallery-1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+
+.ad h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+.ad p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.boxx{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    padding: 20px 30px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    border-radius: 6px;
+}
+.box h1{
+    color: brown;
+}
+#highlight1{
+    background-color: rgb(48, 47, 49);
+    border: 2px solid black;
+}
+
+
+
+
+.section-4{
+    padding: 100PX 0;
+}
+.display-2{
+    display: flex;
+    justify-content: space-between;
+}
+.half-width{
+    width: 50%;
+}
+.half-width h1{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    margin-right: 40px;
+}
+.half-width p{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: rgb(34, 31, 31);
+}
+.half-img{
+    width: 400px;
+    height: 400px;
+    margin-right: 100px;
+}
+.btn-2{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(248, 247, 247);
+    font-style: italic;
+    text-decoration: none;
+    margin-left: 300px;
+    background-color: rgb(235, 17, 17); 
+}
+.btn-2:hover{
+   background-color: black;
+}
+
+
+
+
+
+
+
+.img-cls{
+
+    width: 400px;
+    height: 400px;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+}
+.section-6{
+    padding: 100px 0;
+}
